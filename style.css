@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+#display {
+    padding: 10px;
+    font-size: 1.5em;
+    text-align: right;
+    background-color: #eee;
+    margin-bottom: 10px;
+}
+
+button {
+    font-size: large;
+    padding: 25px;
+    cursor: pointer;
+}
